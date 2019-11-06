@@ -8,7 +8,7 @@ spring:
   jpa:
     show-sql: true
     open-in-view: false
-#项目访问路径名
+#项目访问路径名22
 server:
   servlet:
     context-path: /sell

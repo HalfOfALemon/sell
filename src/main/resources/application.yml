@@ -3,7 +3,7 @@ spring:
     #driver-class-name: com.mysql.jdbc.Driver
     #数据源基本配置
     username: sell
-    password:
+    password: Ya
     url: jdbc:mysql://106.54.200.93:3306/sell?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
   jpa:
     show-sql: true

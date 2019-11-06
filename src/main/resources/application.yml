@@ -8,7 +8,16 @@ spring:
   jpa:
     show-sql: true
     open-in-view: false
+  jackson:
+     time-zone: GMT+8
+     date-format: yyyy-MM-dd HH:mm:ss
+     #配置返回属性不为空
+     default-property-inclusion: non_null
+     #返回时间戳（一串数字）
+     #serialization:
+       #write-dates-as-timestamps: true
 #项目访问路径名
 server:
   servlet:
     context-path: /sell
+  #port: 80

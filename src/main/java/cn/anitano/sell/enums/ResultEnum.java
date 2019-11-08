@@ -20,7 +20,10 @@ public enum ResultEnum {
     ORDER_PAY_STATUS_ERROR(17,"订单支付状态不正确"),
     CART_EMPTY(18,"购物车为空"),
     ORDER_CREATE_FAIL(19,"订单创建失败"),
-    ORDER_OWNER_ERROR(20,"该订单不属于该用户"),
+    WECHAT_MP_ERROR(20,"微信公众号相关错误"),
+
+    ORDER_OWNER_ERROR(201,"该订单不属于该用户"),
+
     ;
     private Integer code;
     private String message;
